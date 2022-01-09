@@ -1,2 +1,11 @@
 - name: SSLMate Certificate Installer
   uses: catchco/sslmate-certificate-installer@v1.0.1
+
+- uses: catchco/sslmate-certificate-installer
+  with:
+    distro: ubuntu2004
+    api-key: ${{ secrets.SSLMATE_API_KEY }}
+    certificate-directory: ssl_certificates
+    certificate-domain: yasarkarasu.me
+    certificate-key-content: ${{ secrets.WILDCARD_MYDOMAIN_COM_KEY }}
+    wildcard-filename: wildcard
