@@ -1,3 +1,6 @@
+- name: Issue SSL certificate
+  uses: Menci/acme@beta-v2
+
 jobs:
   issue-ssl-certificate:
     name: Issue SSL certificate
