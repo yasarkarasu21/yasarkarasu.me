@@ -1,0 +1,2 @@
+- name: SSLMate Certificate Installer
+  uses: catchco/sslmate-certificate-installer@v1.0.1
