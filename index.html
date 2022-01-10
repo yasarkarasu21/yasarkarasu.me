@@ -401,28 +401,17 @@
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
             
           <form action="https://formspree.io/f/xeqnoyeo" method="POST" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Adı Soyadı</label>
-                  <input name="isim" type="text" id="input-name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">e-Mail</label>
-                   <input name="e-posta" type="email" id="input-email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Konu</label>
-                <input name="konu" type="text" id="input-subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Mesaj</label>
-                <textarea name="mesaj" type="text" id="input-message" required></textarea>
-              </div>
-              <div class="text-center">
-                <input type="submit" value="Gönder" id="input-submit">
-            </form>
-        </div>
+             <div class="half left cf">
+             <input class="form-control" name="isim" type="text" id="input-name" placeholder="Adınız" required>
+             <input class="form-control" name="e-posta" type="email" id="input-email" placeholder="E-Posta" required>
+             <input class="form-control" name="konu" type="text" id="input-subject" placeholder="Konu" required>
+             </div>
+             <div class="half right cf">
+             <textarea name="mesaj" type="text" id="input-message" placeholder="Mesaj" required></textarea>
+             </div>  
+             <input type="submit" value="Gönder" id="input-submit">
+          </form>
+          </div>
 
       </div>
     </section>
