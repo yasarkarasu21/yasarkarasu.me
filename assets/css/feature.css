@@ -60,7 +60,7 @@ form textarea {
 }
 
 .half {
-  float: left;
+  float: center;
   width: 48%;
   margin-bottom: 1em;
 }
