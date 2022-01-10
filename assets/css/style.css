@@ -799,13 +799,6 @@ section {
   color: #fff;
 }
 
-.contact .finish {
-  width: 100%;
-  padding: 30px;
-  background: #fff;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-}
-
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
