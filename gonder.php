@@ -1,4 +1,4 @@
-<?
+<?php
 
 session_start();
 extract($_POST);
@@ -40,6 +40,6 @@ if (!@mail($kime, $konu, $mesaj, "From: $ADI_SOYADI <$EPOSTA_ADRESI>\nX-Mailer: 
     exit();
 }
 
-header( "location: http://www.google.com.tr" ); // Mesaj gönderiltikten sonra yönlenmesini istediğin adres.
+//header( "location: http://www.google.com.tr" ); // Mesaj gönderiltikten sonra yönlenmesini istediğin adres.
 
 ?>
