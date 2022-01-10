@@ -403,54 +403,31 @@
       
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
           <form action="https://formspree.io/f/xeqnoyeo" method="POST">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="form-group">
-                                <div class="input-group mb-2">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text">
-                                            <i class="fa fa-user text-info"></i>
-                                        </div>
-                                    </div>
-                                    <input type="text" class="form-control" name="" placeholder="Ad Soyad" required>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="input-group mb-2">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text">
-                                            <i class="fa fa-envelope text-info"></i>
-                                        </div>
-                                    </div>
-                                    <input type="email" class="form-control" name="" placeholder="E-Posta" required>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="input-group mb-2">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text">
-                                            <i class="fa fa-tag text-info"></i>
-                                        </div>
-                                    </div>
-                                    <input type="text" class="form-control" name="" placeholder="Konu" required>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="input-group mb-2">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text">
-                                            <i class="fa fa-comment text-info"></i>
-                                        </div>
-                                    </div>
-                                    <textarea class="form-control" placeholder="Lütfen Mesajınızı Buraya Yazın.." rows="6" required></textarea>
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <input type="submit" value="GÖNDER" class="btn btn-info btn-block">
-                            </div>
-                        </div>
-                    </div>
-                </form>
+            <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Adı Soyadı</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">e-Mail</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Konu</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Mesaj</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Gönderiliyor</div>
+                <div class="error-message">Hata meydana geldi. Yeniden deneyin.</div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Gönder</button></div>         
+          </form>
             
       </div>
     </section>
