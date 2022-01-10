@@ -4,7 +4,7 @@ session_start();
 extract($_POST);
 extract($_GET);
 
-$kime = "gitmesiniistediğin@eposta.com"; // Mesajın gitmesini istediğin e-posta adresin.
+$kime = "ykarasu028@gmail.com"; // Mesajın gitmesini istediğin e-posta adresin.
 $konu = "İletişim Formundan Mesaj!";
 $DateandTime = date("d-m-Y H:i:s");
 $mesaj = "İletişim Formunuzdan Gönderilen Mesajın İçeriği Aşağıdadır :
