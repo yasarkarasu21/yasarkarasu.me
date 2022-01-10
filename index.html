@@ -399,19 +399,28 @@
           <!-- https://formspree.io/ykarasu028@gmail.com / forms/contact.php -->
       
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-          
-          <form action="https://formspree.io/f/xeqnoyeo" method="POST" class="cf">
-           <div class="half left cf">
-            <input name="isim" type="text" id="input-name" placeholder="Adınız" required>
-          <input name="e-posta" type="email" id="input-email" placeholder="E-Posta" required>
-          <input name="konu" type="text" id="input-subject" placeholder="Konu" required>
-         </div>
-         <div class="half right cf">
-         <textarea name="mesaj" type="text" id="input-message" placeholder="Mesaj" required></textarea>
-         </div>  
-         <input type="submit" value="Gönder" id="input-submit">
-         </form>
-
+            
+          <form action="https://formspree.io/f/xeqnoyeo" method="POST" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Adı Soyadı</label>
+                  <input type="text" name="isim" class="form-control" id="input-name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">e-Mail</label>
+                  <input type="email" class="form-control" name="e-posta" id="input-email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Konu</label>
+                <input type="text" class="form-control" name="konu" id="input-subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Mesaj</label>
+                <textarea class="form-control" name="mesaj" type="text" id="input-message" rows="10" required></textarea>
+              </div>
+              <div class="text-center"><button type="submit" id="input-submit">Gönder</button></div>
+            </form>
         </div>
 
       </div>
