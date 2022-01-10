@@ -404,18 +404,28 @@
 
           </div>
           <!-- https://formspree.io/ykarasu028@gmail.com / forms/contact.php -->
-          
+      
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+          <h5>İleişim Formu</h5>
           <form action="https://formspree.io/f/xeqnoyeo" method="POST" class="cf">
           <div class="half left cf">
-          Adınız:
-          <input name="isim" type="text" id="input-name" required>
-          <br>
-          <input name="e-posta" type="email" id="input-email" placeholder="E-Posta" required>
-          <input name="konu" type="text" id="input-subject" placeholder="Konu" required>
+            
+             <h3>Ad Soyad:</h3>
+             <input name="isim" type="text" id="input-name" required>
+             <br>
+          
+             <h3>E-Posta:</h3>
+             <input name="e-posta" type="email" id="input-email" required>
+             <br>
+             
+             <h3>Konu:</h3>        
+             <input name="konu" type="text" id="input-subject" placeholder="Konu" required>
+             <br>
+            
           </div>
           <div class="half right cf">
-          <textarea name="mesaj" type="text" id="input-message" placeholder="Mesaj" required></textarea>
+            <h3>Mesajınız</h3>
+            <textarea name="mesaj" type="text" id="input-message" required></textarea>
           </div>  
           <input type="submit" value="Gönder" id="input-submit">
           </form>
