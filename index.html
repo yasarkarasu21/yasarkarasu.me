@@ -405,33 +405,18 @@
           </div>
           <!-- https://formspree.io/ykarasu028@gmail.com / forms/contact.php -->
           
-         <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-         <form action="https://formspree.io/f/xeqnoyeo" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Adı Soyadı</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">e-Mail</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Konu</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Mesaj</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Gönderiliyor</div>
-                <div class="error-message">Hata meydana geldi. Yeniden deneyin.</div>
-                <div class="sent-message">Başarılı!</div>
-              </div>
-              <div class="text-center"><button type="submit">Gönder</button></div>
-            </form>
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+          <form action="https://formspree.io/f/mvodoeez" method="POST" class="cf">
+          <div class="half left cf">
+          <input name="isim" type="text" id="input-name" placeholder="Adınız" required>
+          <input name="e-posta" type="email" id="input-email" placeholder="E-Posta" required>
+          <input name="konu" type="text" id="input-subject" placeholder="Konu" required>
+          </div>
+          <div class="half right cf">
+          <textarea name="mesaj" type="text" id="input-message" placeholder="Mesaj" required></textarea>
+          </div>  
+          <input type="submit" value="Gönder" id="input-submit">
+          </form>
           
 
         </div>
