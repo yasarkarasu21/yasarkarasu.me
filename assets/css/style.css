@@ -31,6 +31,8 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -61,6 +63,19 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
+#contact button.submitform {
+    font-size: 1.5rem;
+    display: block;
+    letter-spacing: .2rem;
+    height: 6.6rem;
+    line-height: 6.6rem;
+    padding: 0 3rem;
+    margin-top: 4.8rem;
+    width: 100%;
+    background: #ff8400;
+    color: #FFFFFF;
+  
 #header {
   position: fixed;
   top: 0;
